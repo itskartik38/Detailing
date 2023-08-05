@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Detailing Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .service {
+            flex: 0 0 calc(33.33% - 20px);
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Detailing Pros</h1>
+        <p>Your Car Deserves the Best!</p>
+    </header>
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Exterior Detailing</h3>
+                <p>Restore your car's shine with our expert exterior detailing services.</p>
+            </div>
+            <div class="service">
+                <h3>Interior Detailing</h3>
+                <p>Experience a clean and fresh interior with our thorough interior detailing.</p>
+            </div>
+            <div class="service">
+                <h3>Full Detail Package</h3>
+                <p>Combine our exterior and interior detailing for the ultimate car pampering.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Car Detailing Pros. All rights reserved.</p>
+    </footer>
+</body>
+</html>
